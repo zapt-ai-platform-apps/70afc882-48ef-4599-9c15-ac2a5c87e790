@@ -15,9 +15,7 @@ function SellApps() {
         </button>
       </div>
       <div class="bg-white p-6 rounded-lg shadow-md">
-        <p class="text-gray-700 text-lg">
-          هذه هي الصفحة المخصصة لبيع التطبيقات حسب متطلبات الزبائن.
-        </p>
+        {/* المحتوى تم إزالته بناءً على طلب المستخدم */}
       </div>
     </div>
   );
