@@ -1,7 +1,7 @@
 {
-  "name": "new-app",
+  "name": "blind-accessibility-services",
   "version": "1.0.0",
-  "description": "SolidJS app to assist blind users, built with Vite and Tailwind",
+  "description": "SolidJS app to provide accessibility services for blind users, built with Vite and Tailwind",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@sentry/browser": "^8.35.0",
+    "@sentry/tracing": "^8.35.0",
     "autoprefixer": "^10.4.20",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.13",
