@@ -2,13 +2,12 @@ import { render } from 'solid-js/web';
 import App from './App';
 import './index.css';
 import * as Sentry from '@sentry/browser';
-import { BrowserTracing } from '@sentry/browser';
+import { Router } from '@solidjs/router';
 
 Sentry.init({
   dsn: import.meta.env.VITE_PUBLIC_SENTRY_DSN,
   environment: import.meta.env.VITE_PUBLIC_APP_ENV,
-  integrations: [new BrowserTracing()],
-  tracesSampleRate: 1.0,
+  integrations: [Sentry.browserTracingIntegration()],
   initialScope: {
     tags: {
       type: 'frontend',
@@ -31,4 +30,8 @@ script.setAttribute('src', 'https://progressier.app/z8yY3IKmfpDIw3mSncPh/script.
 script.setAttribute('defer', 'true');
 document.querySelector('head').appendChild(script);
 
-render(() => <App />, document.getElementById('root'));
+render(() => (
+  <Router>
+    <App />
+  </Router>
+), document.getElementById('root'));
