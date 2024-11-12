@@ -9,7 +9,6 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "@zapt/zapt-js": "^1.0.5",
     "solid-js": "^1.8.22"
   },
   "devDependencies": {

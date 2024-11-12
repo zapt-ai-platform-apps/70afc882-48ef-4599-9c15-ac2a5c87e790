@@ -15,7 +15,7 @@ Sentry.init({
   },
 });
 
-// Add PWA support to the app (this will add a service worker and a manifest file, you don't need to do anything else, just add the public/progressier.js file)
+// إضافة دعم PWA للتطبيق (سيضيف خدمة العمال وملف تعريفي، لا تحتاج إلى فعل أي شيء آخر، فقط أضف ملف public/progressier.js)
 window.progressierAppRuntimeSettings = {
   uid: import.meta.env.VITE_PUBLIC_APP_ID,
   icon512:
