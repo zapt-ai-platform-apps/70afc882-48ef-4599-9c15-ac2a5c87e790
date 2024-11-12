@@ -1,19 +1,15 @@
-# خدمات Blind Accessibility
+# New App
 
-تطبيق "خدمات Blind Accessibility" هو تطبيق مخصص لمساعدة المستخدمين المكفوفين على الوصول إلى الخدمات والمعلومات بسهولة من خلال واجهة مستخدم بسيطة وفعالة.
+New App is a simple application designed to assist blind users with accessible services through a user-friendly interface in Arabic.
 
-## المميزات الأساسية
+## Features
 
-- **واجهة باللغة العربية**: التطبيق بالكامل باللغة العربية ليتناسب مع المستخدمين الناطقين بالعربية.
-- **تجربة مستخدم مبسطة**: تم تصميم التطبيق ليكون بسيطًا وسهل الاستخدام لتلبية احتياجات المستخدمين المكفوفين.
+- **Arabic Interface**: The app is entirely in Arabic to cater to Arabic-speaking users.
+- **Simplified User Experience**: Designed to be simple and easy to use, meeting the needs of blind users.
 
-## خطوات استخدام التطبيق
+## How to Use the App
 
-1. **فتح التطبيق**:
-   - عند فتح التطبيق، سترى شاشة ترحيبية بسيطة.
+1. **Open the App**:
+   - Upon launching the app, you'll see a welcoming screen with the app title.
 
-## ملاحظات
-
-- **تطوير مستمر**: نحن نعمل على إضافة المزيد من الخدمات لتحسين تجربة المستخدمين.
-
-نتمنى أن يساعدك تطبيق "خدمات Blind Accessibility" في الوصول إلى المعلومات بسهولة وراحة.
+We hope that New App helps you access information with ease and comfort.
