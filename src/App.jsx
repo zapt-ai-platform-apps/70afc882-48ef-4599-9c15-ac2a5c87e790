@@ -5,7 +5,7 @@ import SellApps from './pages/SellApps';
 function App() {
   return (
     <div
-      class="h-full bg-gradient-to-br from-purple-100 to-blue-100 p-4"
+      class="min-h-screen bg-gradient-to-br from-purple-100 to-blue-100 p-4"
       dir="rtl"
     >
       <Routes>
