@@ -1,9 +1,11 @@
 import { createSignal } from 'solid-js';
-import { Routes, Route, Link } from '@solidjs/router';
+import { Routes, Route, useNavigate } from '@solidjs/router';
 
 function Home() {
+  const navigate = useNavigate();
+
   return (
-    <div class="max-w-2xl mx-auto h-full">
+    <div class="mx-auto h-full">
       <div class="flex justify-center mb-8">
         <h1 class="text-4xl font-bold text-purple-600">
           خدمات Blind Accessibility
@@ -13,28 +15,30 @@ function Home() {
         <h2 class="text-2xl font-bold mb-6 text-purple-600">
           مرحبًا بك في خدمات Blind Accessibility
         </h2>
-        <Link
-          href="/sell-apps"
+        <button
+          onClick={() => navigate('/sell-apps')}
           class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
         >
           بيع التطبيقات
-        </Link>
+        </button>
       </div>
     </div>
   );
 }
 
 function SellApps() {
+  const navigate = useNavigate();
+
   return (
-    <div class="max-w-2xl mx-auto h-full">
+    <div class="mx-auto h-full">
       <div class="flex justify-between items-center mb-8">
         <h1 class="text-3xl font-bold text-purple-600">بيع التطبيقات</h1>
-        <Link
-          href="/"
+        <button
+          onClick={() => navigate('/')}
           class="text-blue-500 hover:underline text-lg font-semibold cursor-pointer"
         >
           الرجوع إلى الصفحة الرئيسية
-        </Link>
+        </button>
       </div>
       <div class="bg-white p-6 rounded-lg shadow-md">
         <p class="text-gray-700 text-lg">
@@ -48,7 +52,7 @@ function SellApps() {
 function App() {
   return (
     <div
-      class="min-h-screen bg-gradient-to-br from-purple-100 to-blue-100 p-4 h-full"
+      class="h-full bg-gradient-to-br from-purple-100 to-blue-100 p-4"
       dir="rtl"
     >
       <Routes>
