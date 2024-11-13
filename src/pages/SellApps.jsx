@@ -45,7 +45,7 @@ function SellApps() {
       </div>
       <div class="bg-white p-6 rounded-lg shadow-md">
         <p class="text-gray-700 leading-relaxed mb-6">
-          نحن نقدم مجموعة متنوعة من التطبيقات المصممة خصيصًا لتلبية احتياجات المكفوفين وضعاف البصر. يرجى اختيار الباقة التي تناسبك لمعرفة المزيد.
+          اكتشف مجموعة من التطبيقات المبتكرة التي ستحدث فرقًا حقيقيًا في حياتك اليومية. اختر الباقة المثلى واستمتع بتجربة فريدة ومميزة.
         </p>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <For each={packages}>

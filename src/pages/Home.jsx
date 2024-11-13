@@ -7,12 +7,12 @@ function Home() {
     <div class="mx-auto min-h-screen h-full">
       <div class="flex justify-center mb-8">
         <h1 class="text-4xl font-bold text-purple-600">
-          مرحبًا بك في خدمات Blind Accessibility
+          أهلاً بك في مساعدات Blind Accessibility
         </h1>
       </div>
       <div class="bg-white p-6 rounded-lg shadow-md">
         <p class="text-gray-700 leading-relaxed mb-6">
-          نحن نسعى لتوفير أفضل الخدمات والتطبيقات لمساعدة المكفوفين وضعاف البصر على الوصول إلى المعلومات والخدمات بسهولة ويسر.
+          اكتشف تجربة فريدة مصممة خصيصًا لتمكينك من الوصول إلى العالم الرقمي بثقة وسهولة. نعمل جاهدين لتقديم أفضل الخدمات التي تلبي احتياجاتك وتعزز استقلاليتك.
         </p>
         <button
           onClick={() => navigate('/sell-apps')}
