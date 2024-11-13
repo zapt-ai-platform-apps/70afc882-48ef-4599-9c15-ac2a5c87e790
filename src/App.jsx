@@ -1,6 +1,5 @@
 import { Routes, Route } from '@solidjs/router';
 import Home from './pages/Home';
-import SellApps from './pages/SellApps';
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
     >
       <Routes>
         <Route path="/" component={Home} />
-        <Route path="/sell-apps" component={SellApps} />
       </Routes>
     </div>
   );

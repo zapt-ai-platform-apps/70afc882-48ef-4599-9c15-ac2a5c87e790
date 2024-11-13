@@ -14,12 +14,6 @@ function Home() {
         <p class="text-gray-700 leading-relaxed mb-6">
           اكتشف تجربة فريدة مصممة خصيصًا لتمكينك من الوصول إلى العالم الرقمي بثقة وسهولة. نعمل جاهدين لتقديم أفضل الخدمات التي تلبي احتياجاتك وتعزز استقلاليتك.
         </p>
-        <button
-          onClick={() => navigate('/sell-apps')}
-          class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
-        >
-          بيع التطبيقات
-        </button>
       </div>
     </div>
   );
