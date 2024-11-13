@@ -15,23 +15,50 @@ function OrderApp() {
           باقاتنا:
         </h2>
         <div class="space-y-4 mb-6">
+          {/* الباقة المجانية */}
           <div class="bg-gray-100 p-4 rounded-lg">
             <h3 class="text-xl font-bold">الباقة المجانية</h3>
-            <p class="text-gray-700">
+            <p class="text-gray-700 mb-4">
               تطبيق أساسي بميزات محدودة. مثالي للمستخدمين الذين يرغبون في تجربة الخدمة قبل الانتقال إلى الباقات المدفوعة.
             </p>
+            <div class="flex justify-center">
+              <a
+                href="mailto:info@blindaccessibility.com?subject=طلب الباقة المجانية"
+                class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
+              >
+                اطلب الآن
+              </a>
+            </div>
           </div>
+          {/* الباقة المدفوعة الأساسية */}
           <div class="bg-gray-100 p-4 rounded-lg">
             <h3 class="text-xl font-bold">الباقة المدفوعة الأساسية</h3>
-            <p class="text-gray-700">
+            <p class="text-gray-700 mb-4">
               تطبيق مخصص مع ميزات إضافية. دعم فني مستمر لضمان أفضل أداء.
             </p>
+            <div class="flex justify-center">
+              <a
+                href="mailto:info@blindaccessibility.com?subject=طلب الباقة المدفوعة الأساسية"
+                class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
+              >
+                اطلب الآن
+              </a>
+            </div>
           </div>
+          {/* الباقة المدفوعة المميزة */}
           <div class="bg-gray-100 p-4 rounded-lg">
             <h3 class="text-xl font-bold">الباقة المدفوعة المميزة</h3>
-            <p class="text-gray-700">
+            <p class="text-gray-700 mb-4">
               تطبيق متكامل مع جميع الميزات المتقدمة. دعم فني وأولوية في التحديثات لتلبية جميع احتياجاتك.
             </p>
+            <div class="flex justify-center">
+              <a
+                href="mailto:info@blindaccessibility.com?subject=طلب الباقة المدفوعة المميزة"
+                class="bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-purple-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
+              >
+                اطلب الآن
+              </a>
+            </div>
           </div>
         </div>
         <div class="mt-6 text-center">
