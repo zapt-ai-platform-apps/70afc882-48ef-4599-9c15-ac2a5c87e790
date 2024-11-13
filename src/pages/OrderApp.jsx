@@ -61,17 +61,6 @@ function OrderApp() {
             </div>
           </div>
         </div>
-        <div class="mt-6 text-center">
-          <p class="text-lg text-gray-700 mb-4">
-            للتفاصيل وكيفية الطلب، يرجى التواصل معنا عبر البريد الإلكتروني أو الهاتف.
-          </p>
-          <p class="text-gray-700">
-            البريد الإلكتروني: <a href="mailto:info@blindaccessibility.com" class="text-blue-500 hover:underline">info@blindaccessibility.com</a>
-          </p>
-          <p class="text-gray-700">
-            الهاتف: <a href="tel:+1234567890" class="text-blue-500 hover:underline">+1234567890</a>
-          </p>
-        </div>
       </div>
     </div>
   );
