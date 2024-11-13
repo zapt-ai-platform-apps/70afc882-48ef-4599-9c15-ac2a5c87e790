@@ -4,7 +4,7 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div class="mx-auto min-h-screen h-full">
+    <div class="mx-auto min-h-screen">
       <div class="flex justify-center mb-8">
         <h1 class="text-4xl font-bold text-purple-600">
           أهلاً بك في خدمات Blind Accessibility

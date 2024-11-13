@@ -17,9 +17,9 @@ function OrderApp() {
         <div class="space-y-4 mb-6">
           {/* الباقة المجانية */}
           <div class="bg-gray-100 p-4 rounded-lg">
-            <h3 class="text-xl font-bold">الباقة المجانية</h3>
+            <h3 class="text-xl font-bold text-purple-600">الباقة المجانية</h3>
             <p class="text-gray-700 mb-4">
-              تطبيق أساسي بميزات محدودة. مثالي للمستخدمين الذين يرغبون في تجربة الخدمة قبل الانتقال إلى الباقات المدفوعة.
+              تحتوي على إعلانات وحقوق المطورين، بخصائص محدودة ولوحة تحكم. مثالية للمستخدمين الذين يرغبون في تجربة الخدمة قبل الانتقال إلى الباقات المدفوعة.
             </p>
             <div class="flex justify-center">
               <a
@@ -32,9 +32,9 @@ function OrderApp() {
           </div>
           {/* الباقة المدفوعة الأساسية */}
           <div class="bg-gray-100 p-4 rounded-lg">
-            <h3 class="text-xl font-bold">الباقة المدفوعة الأساسية</h3>
+            <h3 class="text-xl font-bold text-purple-600">الباقة المدفوعة الأساسية</h3>
             <p class="text-gray-700 mb-4">
-              تطبيق مخصص مع ميزات إضافية. دعم فني مستمر لضمان أفضل أداء.
+              تطبيق مخصص بدون إعلانات، مع ميزات إضافية وتحكم كامل. دعم فني مستمر لضمان أفضل أداء.
             </p>
             <div class="flex justify-center">
               <a
@@ -47,9 +47,9 @@ function OrderApp() {
           </div>
           {/* الباقة المدفوعة المميزة */}
           <div class="bg-gray-100 p-4 rounded-lg">
-            <h3 class="text-xl font-bold">الباقة المدفوعة المميزة</h3>
+            <h3 class="text-xl font-bold text-purple-600">الباقة المدفوعة المميزة</h3>
             <p class="text-gray-700 mb-4">
-              تطبيق متكامل مع جميع الميزات المتقدمة. دعم فني وأولوية في التحديثات لتلبية جميع احتياجاتك.
+              تطبيق متكامل بدون إعلانات، مع جميع الميزات المتقدمة ولوحة تحكم احترافية. دعم فني وأولوية في التحديثات لتلبية جميع احتياجاتك.
             </p>
             <div class="flex justify-center">
               <a
