@@ -15,13 +15,13 @@ function OrderApp() {
   };
 
   return (
-    <div class="mx-auto min-h-screen h-full">
+    <div class="mx-auto min-h-screen">
       <div class="flex justify-center mb-8">
         <h1 class="text-3xl font-bold text-purple-600">
           اطلب تطبيقك الخاص
         </h1>
       </div>
-      <div class="bg-white p-6 rounded-lg shadow-md">
+      <div class="bg-white p-6 rounded-lg shadow-md h-full">
         <p class="text-gray-700 leading-relaxed mb-6">
           نقدم خدمة فريدة لتطوير تطبيقات متوافقة مع قارئات الشاشة للمكفوفين وضعاف البصر.
         </p>
@@ -49,9 +49,6 @@ function OrderApp() {
           </div>
         </div>
         <Show when={!submitted()}>
-          <h2 class="text-2xl font-semibold text-purple-600 mb-4">
-            املأ النموذج لبدء طلبك
-          </h2>
           <form onSubmit={handleSubmit} class="space-y-4">
             <div>
               <label class="block text-gray-700 mb-1">الاسم الكامل</label>
