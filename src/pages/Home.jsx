@@ -7,7 +7,7 @@ function Home() {
     <div class="mx-auto h-full">
       <div class="flex justify-center mb-8">
         <h1 class="text-4xl font-bold text-purple-600">
-          أهلاً بك في خدمات blind accessibility
+          أهلاً بك في خدمات Blind Accessibility
         </h1>
       </div>
       <div class="bg-white p-6 rounded-lg shadow-md">
