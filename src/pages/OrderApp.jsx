@@ -37,7 +37,7 @@ function OrderApp() {
             </ul>
             <div class="flex justify-center">
               <a
-                href="mailto:info@blindaccessibility.com?subject=طلب الباقة المجانية"
+                href="mailto:Info.blindaccess@gmail.com?subject=طلب الباقة المجانية"
                 class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-6 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
               >
                 اطلب الآن
@@ -57,7 +57,7 @@ function OrderApp() {
             </ul>
             <div class="flex justify-center">
               <a
-                href="mailto:info@blindaccessibility.com?subject=طلب الباقة المدفوعة الأساسية"
+                href="mailto:Info.blindaccess@gmail.com?subject=طلب الباقة المدفوعة الأساسية"
                 class="bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-6 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-green-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
               >
                 اطلب الآن
@@ -78,13 +78,19 @@ function OrderApp() {
             </ul>
             <div class="flex justify-center">
               <a
-                href="mailto:info@blindaccessibility.com?subject=طلب الباقة المدفوعة المميزة"
+                href="mailto:Info.blindaccess@gmail.com?subject=طلب الباقة المدفوعة المميزة"
                 class="bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-purple-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
               >
                 اطلب الآن
               </a>
             </div>
           </div>
+        </div>
+        {/* إضافة بريد التواصل */}
+        <div class="mt-8 text-center">
+          <p class="text-gray-700 text-lg">
+            للتواصل: <a href="mailto:Info.blindaccess@gmail.com" class="text-blue-500 underline">Info.blindaccess@gmail.com</a>
+          </p>
         </div>
       </div>
     </div>
