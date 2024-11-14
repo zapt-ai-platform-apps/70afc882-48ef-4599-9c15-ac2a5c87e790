@@ -66,6 +66,7 @@ function OrderApp() {
           <div class="bg-gray-100 p-6 rounded-lg">
             <h3 class="text-xl font-bold text-purple-600 mb-2">الباقة المدفوعة المميزة</h3>
             <ul class="list-disc list-inside text-gray-700 mb-4 space-y-1">
+              <li><span class="font-semibold">القدرة على إضافة الإعلانات والربح منها:</span> تمكينك من عرض الإعلانات داخل التطبيق لتحقيق عائد إضافي.</li>
               <li><span class="font-semibold">تطبيق متكامل مخصص:</span> تصميم وتطوير تطبيق حسب احتياجاتك الخاصة.</li>
               <li><span class="font-semibold">جميع الميزات المتقدمة:</span> وصول غير محدود إلى كافة الخصائص المتاحة.</li>
               <li><span class="font-semibold">لوحة تحكم احترافية:</span> أدوات إدارة متقدمة وشاملة.</li>
