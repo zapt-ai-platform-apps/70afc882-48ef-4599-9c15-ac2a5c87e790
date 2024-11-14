@@ -86,12 +86,9 @@ function OrderApp() {
             </div>
           </div>
         </div>
-        {/* إضافة بريد التواصل */}
-        <div class="mt-8 text-center">
-          <p class="text-gray-700 text-lg">
-            للتواصل: <a href="mailto:Info.blindaccess@gmail.com" class="text-blue-500 underline">Info.blindaccess@gmail.com</a>
-          </p>
-        </div>
+        <p class="text-gray-700 mt-8">
+          للاستفسارات، يرجى التواصل عبر البريد الإلكتروني: <a href="mailto:Info.blindaccess@gmail.com" class="text-blue-500 underline">Info.blindaccess@gmail.com</a>
+        </p>
       </div>
     </div>
   );
