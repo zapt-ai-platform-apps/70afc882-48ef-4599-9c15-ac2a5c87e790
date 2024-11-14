@@ -4,10 +4,10 @@ function Home() {
   const navigate = useNavigate();
 
   return (
-    <div class="mx-auto min-h-screen">
+    <div class="mx-auto h-full">
       <div class="flex justify-center mb-8">
         <h1 class="text-4xl font-bold text-purple-600">
-          أهلاً بك في خدمات Blind Accessibility
+          أهلاً بك في New App
         </h1>
       </div>
       <div class="bg-white p-6 rounded-lg shadow-md">

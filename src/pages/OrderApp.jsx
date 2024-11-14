@@ -1,10 +1,20 @@
+import { useNavigate } from '@solidjs/router';
+
 function OrderApp() {
+  const navigate = useNavigate();
+
   return (
-    <div class="mx-auto min-h-screen">
-      <div class="flex justify-center mb-8">
+    <div class="mx-auto h-full">
+      <div class="flex justify-between items-center mb-8">
         <h1 class="text-3xl font-bold text-purple-600">
           اطلب تطبيقك الخاص
         </h1>
+        <button
+          class="bg-gray-500 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-gray-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
+          onClick={() => navigate('/')}
+        >
+          الرجوع
+        </button>
       </div>
       <div class="bg-white p-6 rounded-lg shadow-md h-full">
         <p class="text-gray-700 leading-relaxed mb-6">
