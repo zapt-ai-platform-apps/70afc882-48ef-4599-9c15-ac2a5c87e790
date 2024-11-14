@@ -83,14 +83,6 @@ function OrderApp() {
             </div>
           </div>
         </div>
-        <div class="flex justify-center">
-          <button
-            class="bg-gray-500 hover:bg-gray-600 text-white font-semibold py-2 px-6 rounded-full shadow-md focus:outline-none focus:ring-2 focus:ring-gray-400 transition duration-300 ease-in-out transform hover:scale-105 cursor-pointer"
-            onClick={() => navigate('/')}
-          >
-            الرجوع إلى الصفحة الرئيسية
-          </button>
-        </div>
       </div>
     </div>
   );
