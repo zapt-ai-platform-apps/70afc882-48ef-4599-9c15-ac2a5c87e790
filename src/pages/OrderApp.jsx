@@ -28,6 +28,7 @@ function OrderApp() {
           {/* الباقة المجانية */}
           <div class="bg-gray-100 p-6 rounded-lg">
             <h3 class="text-xl font-bold text-purple-600 mb-2">الباقة المجانية</h3>
+            <p class="text-lg font-semibold text-gray-800 mb-2">السعر: صفر دولار</p>
             <ul class="list-disc list-inside text-gray-700 mb-4 space-y-1">
               <li><span class="font-semibold">الإعلانات وحقوق المطورين:</span> يتضمن التطبيق إعلانات وروابط لحقوق المطورين.</li>
               <li><span class="font-semibold">خصائص أساسية:</span> وصول إلى الميزات الأساسية للتطبيق.</li>
@@ -46,6 +47,7 @@ function OrderApp() {
           {/* الباقة المدفوعة الأساسية */}
           <div class="bg-gray-100 p-6 rounded-lg">
             <h3 class="text-xl font-bold text-purple-600 mb-2">الباقة المدفوعة الأساسية</h3>
+            <p class="text-lg font-semibold text-gray-800 mb-2">السعر: 10 دولارات</p>
             <ul class="list-disc list-inside text-gray-700 mb-4 space-y-1">
               <li><span class="font-semibold">بدون إعلانات:</span> استمتع بتجربة نظيفة بدون إزعاج الإعلانات.</li>
               <li><span class="font-semibold">ميزات إضافية:</span> وصول إلى خصائص متقدمة تعزز من تجربة المستخدم.</li>
@@ -65,6 +67,7 @@ function OrderApp() {
           {/* الباقة المدفوعة المميزة */}
           <div class="bg-gray-100 p-6 rounded-lg">
             <h3 class="text-xl font-bold text-purple-600 mb-2">الباقة المدفوعة المميزة</h3>
+            <p class="text-lg font-semibold text-gray-800 mb-2">السعر: 50 دولار</p>
             <ul class="list-disc list-inside text-gray-700 mb-4 space-y-1">
               <li><span class="font-semibold">القدرة على إضافة الإعلانات والربح منها:</span> تمكينك من عرض الإعلانات داخل التطبيق لتحقيق عائد إضافي.</li>
               <li><span class="font-semibold">تطبيق متكامل مخصص:</span> تصميم وتطوير تطبيق حسب احتياجاتك الخاصة.</li>
